@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de nutrientes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Tabla de nutrientes</h1>
+    </header>
+    <main>
+        <table id="tabla-nutrientes">
+            <thead>
+                <tr>
+                    <th>Fósforo</th>
+                    <th>Calcio</th>
+                    <th>Magnesio</th>
+                    <th>Potasio</th>
+                    <th>Sodio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label>Rutina mg/kg:</label>
+                        <input type="number" id="fosforo-rutina" required>
+                        <br>
+                        <label>Extracto mg/L: </label>
+                        <input type="number" id="fosforo-extracto" required>
+                    </td>
+                    <td>
+                        <label>Rutina mg/kg:</label>
+                        <input type="number" id="calcio-rutina" required>
+                        <br>
+                        <label>Extracto milimolc/L:</label>
+                        <input type="number" id="calcio-extracto" required>
+                        
+                    </td>
+                    <td>
+                        <label>Rutina mg/kg:</label>
+                        <input type="number" id="magnesio-rutina"required >
+                        <br>
+                        <label>Extracto milimolc/L:</label>
+                        <input type="number" id="magnesio-extracto" required>
+                        
+                    </td>
+                    <td>
+                        <label>Rutina mg/kg </label>
+                        <input type="number" id="potasio-rutina" required>
+                        <br>
+                        <label>Extracto milimolc/L:</label>
+                        <input type="number" id="potasio-extracto" required>
+                    </td>
+                    <td>
+                        <label>Extracto milimolc/L:</label>
+                        <input type="number" id="sodio-extracto" required>
+                    </td>
+                </tr>
+            </tbody>
+        </table>    
+        <button id="mostrar-imagen">Resultados</button>
+        <div id="resultado-container">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
